@@ -16,7 +16,11 @@ def hello():
 
 hello()
 
+<<<<<<< HEAD
 # Task 1 of decoraters
+=======
+#Task 1 of decoraters
+>>>>>>> 800ec5b44237773f8c554843b3a7365968ee653e
 
 def repeat(func):
     def wrapper():
