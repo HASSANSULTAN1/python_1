@@ -1,6 +1,6 @@
 
 # using a decorater in a function
-""""
+
 
 def decorater(func):
     def wrapper():
@@ -16,11 +16,7 @@ def hello():
 
 hello()
 
-<<<<<<< HEAD
-# Task 1 of decoraters
-=======
-#Task 1 of decoraters
->>>>>>> 800ec5b44237773f8c554843b3a7365968ee653e
+
 
 def repeat(func):
     def wrapper():
@@ -37,7 +33,7 @@ def get_message():
 
 get_message()
 
-"""
+
 list1 = ["apple", "banana", "cherry"]
 list2 = [1, 5, 7, 9, 3]
 list3 = [True, False, False]
