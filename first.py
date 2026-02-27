@@ -1,6 +1,6 @@
 
 # using a decorater in a function
-
+""""
 
 def decorater(func):
     def wrapper():
@@ -16,6 +16,8 @@ def hello():
 
 hello()
 
+# Task 1 of decoraters
+
 def repeat(func):
     def wrapper():
         n = int(input("How many times you want to print? "))
@@ -30,5 +32,15 @@ def get_message():
     return msg
 
 get_message()
+
+"""
+list1 = ["apple", "banana", "cherry"]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
+
+print (list1,list2,list3)
+
+thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+print(thislist)
 
 
