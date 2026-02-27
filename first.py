@@ -16,6 +16,8 @@ def hello():
 
 hello()
 
+#Task 1 of decoraters
+
 def repeat(func):
     def wrapper():
         n = int(input("How many times you want to print? "))
