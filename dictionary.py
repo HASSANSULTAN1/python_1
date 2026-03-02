@@ -42,3 +42,4 @@ Cars = {
 print(Cars)
 
 print(Cars ["car2"]["name"])
+print(type(dict_1))
