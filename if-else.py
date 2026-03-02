@@ -88,3 +88,19 @@ if score >= 50 and score <= 100:
   print(" Good score")
 else:
   print("Bad score")
+
+
+
+#Nested if statments
+
+
+age = 25
+has_license = True
+
+if age >= 18:
+  if has_license:
+    print("You can drive")
+  else:
+    print("You need a license")
+else:
+  print("FIRRRRRR")    
