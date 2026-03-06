@@ -16,7 +16,7 @@ def hello():
 
 hello()
 
-
+# Task 1 of decoraters
 
 def repeat(func):
     def wrapper():
@@ -33,14 +33,16 @@ def get_message():
 
 get_message()
 
-
 list1 = ["apple", "banana", "cherry"]
 list2 = [1, 5, 7, 9, 3]
 list3 = [True, False, False]
 
 print (list1,list2,list3)
 
-thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
-print(thislist)
+
+
+
+
+
 
 
