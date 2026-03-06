@@ -1,5 +1,5 @@
 # Task # 01
-
+"""""
 def repeat(func):
     def wrapper():
         m = input("What do you want to print? ")  
@@ -37,12 +37,21 @@ def func_100():
     print("I am a function")
 
 func_100()
+"""
 
+#Task no 03
 
+def upper(func):
+    def wrapper(*args,**kwargs):
+        result = func(*args,**kwargs)
+        print(result.upper())
+    return wrapper
 
+@upper
+def func_200():
+    text = input ( "What u want to print ")
+    return text
 
-
-
-
+func_200()
 
 
