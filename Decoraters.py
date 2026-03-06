@@ -28,7 +28,7 @@ def timer(func):
         start = time.time()
         result = func(*args, **kwargs)
         end = time.time()
-        print (f"The function {func.__name__} took {end - start:.4f} seconds to execute")
+        print(f"The function {func.__name__} took {end - start:.4f} seconds to execute")
         return result
     return wrapper  
 
@@ -37,6 +37,11 @@ def func_100():
     print("I am a function")
 
 func_100()
+
+
+
+
+
 
 
 
