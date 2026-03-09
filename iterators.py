@@ -19,3 +19,9 @@ print(next(myit))
 print(next(myit))
 print(next(myit))
 print(next(myit))
+
+
+import datetime
+
+x = datetime.datetime.now()
+print(x)
