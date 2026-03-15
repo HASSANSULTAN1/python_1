@@ -1,13 +1,21 @@
-def count_vowels(s):
-    vowels = ""
-    for ch in s:
-        if ch in "AEIOUaeiou":
-            vowels += ch
-    return len(vowels), vowels[::-1]
+# Q # 02
 
-text = input ("enter a string :" )
-count , reverse_count = count_vowels(text)
-print("the vowels in string are " , count)
-print("the reverse of vowels is " , reverse_count)
+def combine_vowels(arr1, arr2):
+    arr3 = []
+    for ch in arr1:
+        if ch in "aeiouAEIOU":
+            arr3.append(ch)
+    for ch in arr2:
+        if ch in "aeiouAEIOU":
+            arr3.append(ch)
+    return arr3
+
+array1 = ['a', 'b', 'e', 'k', 'i']
+array2 = ['o', 'x', 'u', 'p', 'a']
+
+result = combine_vowels(array1, array2)
+print("Array 1:", array1)
+print("Array 2:", array2)
+print("Vowels Combined Array:", result)
         
 
