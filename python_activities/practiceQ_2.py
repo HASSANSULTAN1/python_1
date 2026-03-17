@@ -10,12 +10,12 @@ def combine_vowels(arr1, arr2):
             arr3.append(ch)
     return arr3
 
-array1 = ['a', 'b', 'e', 'k', 'i']
-array2 = ['o', 'x', 'u', 'p', 'a']
+array1 = ['H', 'a', 's', 's', 'a', 'n']
+array2 = ['S', 'u', 'l', 't', 'a', 'n']
 
 result = combine_vowels(array1, array2)
 print("Array 1:", array1)
 print("Array 2:", array2)
-print("Vowels Combined Array:", result)
+print("Vowels combined array:", result)
         
 

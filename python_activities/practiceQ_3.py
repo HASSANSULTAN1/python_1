@@ -4,8 +4,7 @@ def third_and_largest(arr):
     third = arr[2]
     return largest, third
 
-arr = input("Enter numbers: ").split() 
-arr = [int(x) for x in arr]
+arr = int(input("Enter numbers: ")).split() 
 
 largest, third = third_and_largest(arr)
 print("Array:", arr)

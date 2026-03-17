@@ -1,12 +1,14 @@
-def count_and_reverse_vowels(s):
+
+#Q # 01
+
+def count_vowels(s):
     vowels = ""
     for ch in s:
-        if ch in "aeiouAEIOU":
+        if ch in "AEIOUaeiou":
             vowels += ch
     return len(vowels), vowels[::-1]
 
-
-text = input('enter a string : ')
-count, reversed_vowels = count_and_reverse_vowels(text)
-print("Vowel count:", count)
-print("Vowels in reverse:", reversed_vowels)
+text = input ("enter a string :" )
+count , reverse_count = count_vowels(text)
+print("the vowels in string are " , count)
+print("the reverse of vowels is " , reverse_count)
