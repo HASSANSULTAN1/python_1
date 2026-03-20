@@ -17,5 +17,6 @@ result = combine_vowels(array1, array2)
 print("Array 1:", array1)
 print("Array 2:", array2)
 print("Vowels combined array:", result)
+print ("hi")
         
 
