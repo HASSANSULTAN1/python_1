@@ -66,6 +66,8 @@ def my_function(title, *args, **kwargs):
   print("Keyword arguments:", kwargs)
 
 my_function("User Info", "Hassan", "Zoro", age = 22, city = "Islamabad")
+print("hi")
+print(" i am a function")
     
     
 
