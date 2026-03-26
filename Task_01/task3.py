@@ -1,0 +1,12 @@
+
+# a Python program to get the difference between a given number and 17,
+# if the number is greater than 17 return double the absolute difference.
+
+
+num = int(input("Enter a number: "))
+diff = num - 17
+
+if diff <  17:
+    print (diff)
+elif num > 17:
+    print(diff * 2)
