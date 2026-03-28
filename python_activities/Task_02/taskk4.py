@@ -1,28 +1,15 @@
-def changecase(func):
-  def myinner():
-    return func().upper()
-  return myinner
-
-@changecase
-def myfunction():
-  return "Hello Sally"
-
-print(myfunction())
 
 
-def countdown(n):
-  if n <= 0:
-    print("Done!")
-  else:
-    print(n)
-    countdown(n - 1)
+def to_octal(n):
+    if n == 0:
+        return "0"
+    
+    octal = ""
+    while n > 0:
+        octal = str(n % 8) + octal
+        n //= 8
+    
+    return octal
 
-countdown(5)
-
-def my_generator():
-  yield 1
-  yield 2
-  yield 3
-
-for value in my_generator():
-  print(value)
+n = int(input("Enter a number: "))
+print("Octal equivalent of " + str(to_octal(n)))
