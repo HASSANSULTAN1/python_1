@@ -16,7 +16,6 @@ while True:
     else:
         zero_count += 1
 
-print("-" * 40)
 print("Positive Numbers : " + str(positive_count))
 print("Negative Numbers : " + str(negative_count))
 print("Zeros            : " + str(zero_count))
