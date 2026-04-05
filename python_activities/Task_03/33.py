@@ -94,8 +94,6 @@ if original_d == demorgan_d:
 else:
     print("Expressions are NOT equivalent.")
 
-print("\n" + "=" * 50)
-print("        SUMMARY")
 print("Part A Equivalent : " + str(original_a == demorgan_a))
 print("Part B Equivalent : " + str(original_b == demorgan_b))
 print("Part C Equivalent : " + str(original_c == demorgan_c))
